@@ -1,3 +1,8 @@
+[![C](https://img.shields.io/badge/language-C-00599C?logo=c&logoColor=white)]()
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/AncientDrago/Embedded-Systems-Roadmap)]()
+[![Stars](https://img.shields.io/github/stars/AncientDrago/Embedded-Systems-Roadmap?style=social)]()
+
 # ATxmega128A1U Embedded Systems Learning Repository
 
 A structured, industry-focused collection of firmware modules and example projects for the ATxmega128A1U.  
