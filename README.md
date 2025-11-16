@@ -1,94 +1,66 @@
-# Embedded Systems Roadmap: Bare-Metal → STM32 → RTOS
+# ATxmega128A1U Embedded Systems Learning Repository
 
-This repository documents a complete learning path for becoming an industry-ready **Embedded Systems Engineer**, starting from low-level **bare-metal programming on ATxmega128A1U** to **ARM Cortex-M (STM32)** and **RTOS fundamentals**.
-
-These modules reflect the same embedded concepts I utilize during my work at **DRDO–NSTL**, particularly in real-time firmware design, sensor drivers, and hardware–software integration.
-
----
-
-## 🚀 Why This Repository Exists
-
-Most embedded tutorials use libraries and skip fundamentals.
-
-This repo builds the core engineering intuition required for roles in **Robotics, Automotive, Defence, and real-time embedded systems**:
-
-- Register-level programming  
-- Timing determinism  
-- Interrupt architecture  
-- Peripheral driver development  
-- Communication protocols  
-- Hardware debugging  
-- RTOS design thinking  
+A structured, industry-focused collection of firmware modules and example projects for the ATxmega128A1U.  
+Designed to build strong low-level embedded fundamentals and create a smooth transition toward STM32, ARM Cortex-M, and professional embedded engineering roles.
 
 ---
 
-## 📘 Learning Path Overview
+## 📁 Repository Structure
+01_General_Architecture – MCU basics, memory map, clocks, I/O overview
+02_GPIO_Basics – Digital input/output fundamentals
+03_Interrupts – External and timer interrupt handling
+04_Timers_Counters – 16-bit timers, periodic tasks, scheduling
+05_PWM – Fast/dual-slope PWM generation
+06_ADC – 12-bit analog sampling, filtering techniques
+07_DAC – Analog output and waveform generation
+08_SPI – High-speed synchronous communication
+09_I2C_TWI – Two-wire interface for sensors/EEPROMs
+10_USART – Serial communication & debugging
+11_examples – Complete integrated example applications
+assets – Diagrams, pinouts, block diagrams
 
-### 1️⃣ ATxmega128A1U — Bare-Metal Foundations
-
-Learn real embedded engineering:
-
-- GPIO + Ports  
-- Timers, Counters, ISRs  
-- ADC + Filtering  
-- USART, SPI, I2C drivers (no HAL)  
-- PWM + Motor control  
-- Real-time event handling  
-- IMU interfacing  
 
 ---
 
-### 2️⃣ STM32 (Cortex-M) — Industry MCU
+## 🎯 Goals
 
-Move to modern ARM architecture:
-
-- HAL / LL / Register-level access  
-- EXTI & High-speed peripherals  
-- DMA-driven data pipelines  
-- IMU/MEMS drivers  
-- FreeRTOS basics  
-- Debugging with SWD, Logic analyzers, Oscilloscopes  
+- Build a deep understanding of **register-level firmware development**  
+- Learn embedded design without relying on vendor libraries  
+- Understand peripheral modules at a professional level  
+- Prepare for roles in **defence, robotics, automotive, embedded systems, silicon design companies**  
+- Form a strong base for moving into **STM32, FreeRTOS, and ARM Cortex-M development**
 
 ---
 
-### 3️⃣ RTOS Essentials
+## 🔧 Hardware Requirements
 
-Practical real-time system building:
-
-- Tasks, Queues, Semaphores  
-- ISRs inside RTOS  
-- Time Slicing vs Preemption  
-- Designing deterministic loops  
-- Embedded architecture patterns  
+- ATxmega128A1U development board  
+- USB-UART interface (FT232/CH340)  
+- Basic sensors (I²C/SPI/Analog)  
+- LEDs, buttons, jumpers, breadboard 
+- Logic analyzer or oscilloscope (optional but recommended)
 
 ---
 
-## 📂 Repository Structure
+## 📌 Module Progress
 
-
-Each folder will include:
-
-- Source code  
-- Pinouts / Schematics  
-- Explanations  
+All modules contain:  
+- A dedicated README  
+- Register explanations  
 - Exercises  
-- Debugging notes  
+- Example programs (`main.c` to be added progressively)
+
+More code will be added regularly, with a clear commit history to show learning progression and driver development.
 
 ---
 
-## 🔧 Who Is This For?
+## 📜 License
 
-Engineers aiming for:
-
-- Defence systems  
-- Automotive embedded  
-- Robotics & control  
-- Edge AI platforms  
-- Low-level firmware roles  
+This repository is released under the **MIT License**.
 
 ---
 
-## ⭐ Star the repo & follow for upcoming modules.
+## ⭐ Contributions
 
-More code and drivers coming soon.
-
+This project will be expanded continually.  
+Issues, questions, and suggestions are welcome.  
