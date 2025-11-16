@@ -9,8 +9,8 @@ Designed to build strong low-level embedded fundamentals and create a smooth tra
 
 00_General_Architecture     – MCU basics, memory map, clocks, I/O overview  
 01_GPIO_Basics              – Digital input/output fundamentals  
-02_Interrupts               – External and timer interrupt handling  
-03_Timers_PWM               – 16-bit timers, periodic tasks, scheduling, fast/dual-slope PWM generation  
+02_Timers_PWM               – 16-bit timers, periodic tasks, scheduling, fast/dual-slope PWM generation  
+03_Interrupts               – External and timer interrupt handling  
 04_USART                    – Serial communication & debugging  
 05_SPI                      – High-speed synchronous communication  
 06_I2C_TWI                  – Two-wire interface for sensors/EEPROMs  
