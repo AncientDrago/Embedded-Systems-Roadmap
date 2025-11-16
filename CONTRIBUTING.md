@@ -28,5 +28,3 @@ This repository provides structured firmware learning modules for the ATxmega128
 ```bash
   git checkout -b feature/your-module-name
 ---
-  ```bash
-  git checkout -b feature/your-module-name
