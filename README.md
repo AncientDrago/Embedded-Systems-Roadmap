@@ -65,3 +65,30 @@ Practical real-time system building:
 
 ## 📂 Repository Structure
 
+
+Each folder will include:
+
+- Source code  
+- Pinouts / Schematics  
+- Explanations  
+- Exercises  
+- Debugging notes  
+
+---
+
+## 🔧 Who Is This For?
+
+Engineers aiming for:
+
+- Defence systems  
+- Automotive embedded  
+- Robotics & control  
+- Edge AI platforms  
+- Low-level firmware roles  
+
+---
+
+## ⭐ Star the repo & follow for upcoming modules.
+
+More code and drivers coming soon.
+
