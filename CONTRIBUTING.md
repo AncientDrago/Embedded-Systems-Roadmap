@@ -24,6 +24,9 @@ This repository provides structured firmware learning modules for the ATxmega128
 - Add images or diagrams in `/assets` and reference them  
 
 ### 3. Add or Improve Code Examples  
-- Create a branch in your fork for each feature or module:  
+- Create a branch in your fork for each feature or module:
+```bash
+  git checkout -b feature/your-module-name
+---
   ```bash
   git checkout -b feature/your-module-name
