@@ -27,4 +27,5 @@ This repository provides structured firmware learning modules for the ATxmega128
 - Create a branch in your fork for each feature or module:
 ```bash
   git checkout -b feature/your-module-name
----
+```
+
