@@ -8,7 +8,7 @@ This module introduces how to use interrupts for responsive and non-blocking emb
 - Configuring timer interrupts (TC0, TC1)
 - ISR (Interrupt Service Routine) structure
 - Interrupt priorities on XMEGA
-- Edge detection (rising / falling)
+- Edge detection (rising/falling)
 - Debouncing using interrupts
 
 ## 📁 Folder Contains
