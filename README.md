@@ -7,17 +7,17 @@ Designed to build strong low-level embedded fundamentals and create a smooth tra
 
 ## 📁 Repository Structure
 
-01_General_Architecture     – MCU basics, memory map, clocks, I/O overview  
-02_GPIO_Basics              – Digital input/output fundamentals  
-03_Interrupts               – External and timer interrupt handling  
+00_General_Architecture     – MCU basics, memory map, clocks, I/O overview  
+01_GPIO_Basics              – Digital input/output fundamentals  
+02_Interrupts               – External and timer interrupt handling  
 04_Timers_Counters          – 16-bit timers, periodic tasks, scheduling  
 05_PWM                      – Fast/dual-slope PWM generation  
-06_ADC                      – 12-bit analog sampling, filtering techniques  
-07_DAC                      – Analog output and waveform generation  
-08_SPI                      – High-speed synchronous communication  
-09_I2C_TWI                  – Two-wire interface for sensors/EEPROMs  
-10_USART                    – Serial communication & debugging  
-11_examples                 – Complete integrated example applications  
+07_ADC                      – 12-bit analog sampling, filtering techniques  
+08_DAC                      – Analog output and waveform generation  
+09_SPI                      – High-speed synchronous communication  
+10_I2C_TWI                  – Two-wire interface for sensors/EEPROMs  
+11_USART                    – Serial communication & debugging  
+examples                 – Complete integrated example applications  
 assets                      – Diagrams, pinouts, block diagrams
 
 ---
