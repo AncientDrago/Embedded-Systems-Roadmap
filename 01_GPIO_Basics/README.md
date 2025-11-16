@@ -1,15 +1,26 @@
-# GPIO Basics
+# GPIO Basics — ATxmega128A1U
 
-## 📌 Objective
-Learn how to configure ATxmega128A1U GPIO pins for input, output, toggling, and basic timing.
+This module covers fundamental digital I/O operations on the ATxmega128A1U microcontroller.
 
-## 🔧 You Will Learn
-- Port direction registers  
-- Output toggling  
-- Button input basics  
-- Debouncing concepts  
+## 📌 What You Will Learn
+- Pin direction configuration (IN/OUT)
+- Reading digital input
+- Writing digital output
+- Toggling pins using OUT, SET, CLEAR, TOGGLE registers
+- Using internal pull-ups
+- Debouncing basics
 
-## 🧪 Exercises
-- Toggle LED at different speeds  
-- Read a push button input  
-- Implement software debouncing  
+## 📁 Folder contains
+- `main.c` → example code (to be added later)
+- Notes on registers and pin behavior
+- Exercises for practice
+
+## 🛠 Hardware Used
+- ATxmega128A1U board  
+- LEDs, push buttons, jumper wires
+
+## 🚀 Next Steps
+Once you learn GPIO, you will move to:
+- Interrupt-driven button handling  
+- Timers & PWM  
+- SPI & I2C drivers  
